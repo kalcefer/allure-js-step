@@ -1,4 +1,4 @@
-import { allureCypress } from "allure-cypress/reporter"
+import { allureCypress } from "allure-cypress/reporter";
 
 export default {
   // experimentalInteractiveRunEvents: true,
@@ -8,9 +8,9 @@ export default {
     video: true,
     screenshotOnRunFailure: true,
     setupNodeEvents(on, config) {
-      allureCypress(on, config)
+      allureCypress(on, config);
 
-      return config
+      return config;
     },
   },
 };
